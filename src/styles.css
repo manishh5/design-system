@@ -1,0 +1,38 @@
+/* src/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    body {
+      @apply font-sans;
+    }
+  }
+  
+  @layer components {
+    .bg-primary {
+      @apply bg-blue-500;
+    }
+    .bg-secondary {
+      @apply bg-orange-500;
+    }
+    .bg-tertiary {
+      @apply bg-green-500;
+    }
+    .bg-neutral {
+      @apply bg-gray-500;
+    }
+    .bg-success {
+      @apply bg-green-500;
+    }
+    .bg-info {
+      @apply bg-blue-500;
+    }
+    .bg-warning {
+      @apply bg-orange-500;
+    }
+    .bg-error {
+      @apply bg-red-500;
+    }
+  }
